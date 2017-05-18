@@ -1,18 +1,10 @@
-minimal-scala-akka-seed
+minimal-scala-akka-seed.g8
 =========================
-
-[![Build Status][build-status-badge]][build-status-url]
-[![Code Quality][code-quality-badge]][code-quality-url]
-
-[![Issues][issues-badge]][issues-url]
-
-[![License][license-badge]][license-url]
-[![Chat][chat-badge]][chat-url]
 
 ## To create a new project run
 
 ```
-activator new <YOUR PROJECT NAME> minimal-scala-akka-seed
+sbt new yeghishe/minimal-scala-akka-seed.g8
 ```
 
 ## Overview
@@ -29,14 +21,3 @@ Once the project is generated you get few things out of the box:
 * [Sbt Revolve](https://github.com/spray/sbt-revolver) is being used for local development.
 * [Sbt native packager](https://github.com/sbt/sbt-native-packager) is being used  for packaging and deployment.
 
-
-[build-status-badge]: https://img.shields.io/travis/yeghishe/minimal-scala-akka-seed.svg?style=flat-square
-[build-status-url]: https://travis-ci.org/yeghishe/minimal-scala-akka-seed
-[code-quality-badge]: https://img.shields.io/codacy/c72ad9bf779a492299517736d457e77d.svg?style=flat-square
-[code-quality-url]: https://www.codacy.com/app/ypiruzyan/minimal-scala-akka-seed
-[issues-badge]: https://img.shields.io/github/issues/yeghishe/minimal-scala-akka-seed.svg?style=flat-square
-[issues-url]: https://github.com/yeghishe/minimal-scala-akka-seed/issues
-[license-badge]: https://img.shields.io/badge/License-Apache%202-blue.svg?style=flat-square
-[license-url]: LICENSE
-[chat-badge]: https://img.shields.io/badge/gitter-join%20chat-brightgreen.svg?style=flat-square
-[chat-url]: https://gitter.im/yeghishe/minimal-scala-akka-seed
