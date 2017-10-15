@@ -25,16 +25,16 @@ libraryDependencies ++= {
 
 lazy val root = project.in(file(".")).configs(IntegrationTest)
 Defaults.itSettings
-Revolver.settings
 enablePlugins(JavaAppPackaging)
+coverageEnabled := true
 
 initialCommands := """
-import cats._
-import cats.data._
-import cats.implicits._
-import akka.actor._
-import akka.pattern._
-import akka.util._
-import scala.concurrent._
-import scala.concurrent.duration._
+  import cats._
+  import cats.data._
+  import cats.implicits._
+  import akka.actor._
+  import akka.pattern._
+  import akka.util._
+  import scala.concurrent._
+  import scala.concurrent.duration._
 """.stripMargin
